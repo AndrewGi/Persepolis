@@ -5,3 +5,7 @@ authors = ["AndrewGil <coolman357@gmail.com357>"]
 edition = "2018"
 
 [dependencies]
+amethyst = "0.11.1"
+
+[features]
+vulkan = ["amethyst/vulkan"]
